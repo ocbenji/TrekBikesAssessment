@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SensorSourceModelStoreContainer" CdmEntityContainer="SensorSourceEntities">
+    <EntitySetMapping Name="Sensors">
+      <EntityTypeMapping TypeName="SensorSourceModel.Sensor">
+        <MappingFragment StoreEntitySet="Sensors">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsMonitored" ColumnName="IsMonitored" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
